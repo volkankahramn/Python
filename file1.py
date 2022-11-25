@@ -10,7 +10,7 @@ for employee in range(employeesCount):
         try:
             employeeSalary = float(input(f"Enter the {employee+1}. employee's salary:"))
         except:
-            print("Hatalı Giriş Yaptınız.")
+            print("Hatali giriş yaptiniz.")
         else:
             break
     file.writelines(f"{employeeName.upper()} {employeeSurname.upper()} - {employeeSalary}\n")
