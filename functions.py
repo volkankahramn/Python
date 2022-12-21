@@ -21,4 +21,4 @@ def passsedOrNot(note)
 if passsedOrNot(60):
     print("Geçtiniz")
 else:
-    print("Kaldınızı")
+    print("Kaldınız")
